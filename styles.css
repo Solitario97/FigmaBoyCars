@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 1311px;
+    height: 2000px;
+    justify-self: center;
+}
+
+.cards-big {
+    height: 360px;
+    width: 1311px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.card-big-1,
+.card-big-2 {
+    width: 630px;
+    height: 360px;
+}
+
+.text-big-cart {
+    margin-left: 20px;
+}
+
+.card-big-1 {
+    background-color: #54A6FF;
+}
+
+.card-big-2 {
+    background-color: #3563E9;
+}
+
+.img {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-big-2 .img {
+    transform: scaleX(-1);
+    /* здесь я хотел использовать .img:nth-child(2) но не вышло, пришлось прибегнуть к .card-big-2 .img */
+}
+
+.card-big-2 button {
+    background-color: #54A6FF;
+
+}
+
+h1 {
+    width: 283.99px;
+    height: 96px;
+    margin-top: 23px;
+}
+
+.text-big-cart p {
+    width: 267.81px;
+    height: 47.81px;
+    top: 115.12px;
+}
+
+button {
+    width: 118.04px;
+    height: 40.63px;
+    margin-top: 20px;
+    color: white;
+    background-color: #3563E9;
+
+}
+
+.popular-car {
+    margin-top: 20px;
+}
+
+.popular-car_text {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.popular-car p {
+    color: #90A3BF;
+}
+.popular-car a {
+    text-decoration: none;
+}
+.popular-car_cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.popular-car_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 304px;
+    height: 388px;
+    top: 40.62px;
+    border: 1px 0px 0px 0px;
+    background-color: white;
+    border: 1px solid #DDDDDD;
+}
+
+.popular-car_card-text {
+    margin-left: 10px;
+}
+.popular-car_card-text h3 {
+    margin-top: 10px;
+}
+.popular-car_card-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.characteristics {
+    display: flex;
+    justify-content: space-around;
+}
+.gus, .persons, .transmission {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+
+
+
+.rent {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-around;
+} 
+.rent button {
+    margin-top: 0;
+}
+
+.btn_show-more {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
